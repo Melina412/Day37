@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loops-3_3</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <form onsubmit="return false">
+          <input
+            type="number"
+            id="numberInput"
+            min="1"
+            max="1000"
+            style="width: 100px"
+          />
+          <input
+            type="submit"
+            id="submitInput"
+            value="Loop Me"
+            onclick="loopMeAgain()"
+          />
+        </form>
+      </section>
+      <section>
+        <p id="text" style="font-size: 30px; color: mediumaquamarine"></p>
+        <p id="invalid" style="font-size: 20px; color: crimson"></p>
+      </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
